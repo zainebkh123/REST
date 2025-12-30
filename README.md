@@ -71,13 +71,15 @@ Fonctionnalités réalisées:
 
 ---
 
- Endpoints REST consommés :
-- `GET /api/personnes` → liste des personnes
-- `GET /api/personnes/id/{id}` → recherche par ID
-- `GET /api/personnes/nom/{nom}` → recherche par nom
-- `POST /api/personnes` → ajout
-- `PUT /api/personnes/{id}` → modification
-- `DELETE /api/personnes/{id}` → suppression
+Endpoints REST consommés :
+
+GET    /personnes                 → liste des personnes
+GET    /personnes/id/{id}         → recherche par ID
+GET    /personnes/nom/{nom}       → recherche par nom
+POST   /personnes/add             → ajout d’une personne
+PUT    /personnes/update/{id}     → modification d’une personne
+DELETE /personnes/delete/{id}     → suppression d’une personne
+
 
 
 ---
