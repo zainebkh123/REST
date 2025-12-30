@@ -73,12 +73,12 @@ Fonctionnalités réalisées:
 
 Endpoints REST consommés :
 
-GET    /personnes                 → liste des personnes
-GET    /personnes/id/{id}         → recherche par ID
-GET    /personnes/nom/{nom}       → recherche par nom
-POST   /personnes/add             → ajout d’une personne
-PUT    /personnes/update/{id}     → modification d’une personne
-DELETE /personnes/delete/{id}     → suppression d’une personne
+  - GET    /personnes                 → liste des personnes
+  - GET    /personnes/id/{id}         → recherche par ID
+  - GET    /personnes/nom/{nom}       → recherche par nom
+  - POST   /personnes/add             → ajout d’une personne
+  - PUT    /personnes/update/{id}     → modification d’une personne
+  - DELETE /personnes/delete/{id}     → suppression d’une personne
 
 
 
@@ -91,7 +91,7 @@ ajouté avec le lien Github du projet .
 La vidéo présente :
 - l’architecture du projet
 - la communication frontend / backend
-- les fonctionnalités CRUD
+- les fonctionnalités 
 - l’utilisation des services REST
 
 
